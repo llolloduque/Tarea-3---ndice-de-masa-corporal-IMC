@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 300px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Colores según clasificación */
+.bajo {
+    color: #1e90ff;
+}
+
+.normal {
+    color: #2ecc71;
+}
+
+.sobrepeso {
+    color: #f39c12;
+}
+
+.obesidad {
+    color: #e74c3c;
+}
